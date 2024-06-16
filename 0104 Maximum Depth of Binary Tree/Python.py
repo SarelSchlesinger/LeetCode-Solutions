@@ -1,11 +1,12 @@
-# first approach - iterative DFS algorithm
-# time complexity: O(V + E)
-
 class TreeNode(object):
     def __init__(self, val=0, left=None, right=None):
         self.val = val
         self.left = left
         self.right = right
+
+# first approach - iterative DFS algorithm
+# time complexity: O(V + E)
+# space complexity: O(V)
         
 class Solution(object):
     def maxDepth(self, root):
@@ -23,13 +24,8 @@ class Solution(object):
         
 # second approach - recursive DFS algorithm
 # time complexity: O(V + E)
+# space complexity: O(V)
 
-class TreeNode(object):
-    def __init__(self, val=0, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
-        
 class Solution(object):
     def maxDepth(self, root):
         if not root: return 0

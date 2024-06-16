@@ -1,5 +1,5 @@
 # first approach - brute force
-# time Complexity: O(n^2)
+# time complexity: O(n^2)
 # space complexity: O(1)
 class Solution(object):
     def twoSum(self, nums, target):

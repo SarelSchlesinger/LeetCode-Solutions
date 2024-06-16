@@ -1,5 +1,5 @@
-# by using the tortoise and the hare algorithm
 # time complexity: O(n)
+# space complexity: O(1)
 
 class ListNode(object):
     def __init__(self, val=0, next=None):

@@ -3,7 +3,7 @@ class ListNode(object):
         self.val = val
         self.next = next
         
-# first approach - iterative approach using stack
+# first approach - using stack
 # time complexity: O(n)
 # space complexity: O(n)
 class Solution(object):
@@ -13,15 +13,12 @@ class Solution(object):
         while head:
             stack.append(head)
             head = head.next
-        newHead = tail = stack.pop()
-        while stack:
-            currentNode = stack.pop()
-            tail.next = currentNode
-            tail = currentNode
-        tail.next = None
-        return newHead
+        for i in range(1, len(stack)):
+            stack[i].next = stack[i - 1]
+        stack[0].next = None
+        return stack[-1]
 
-# second approach - iterative approach
+# second approach - using two pointers
 # time complexity: O(n)
 # space complexity: O(1)
 class Solution(object):
