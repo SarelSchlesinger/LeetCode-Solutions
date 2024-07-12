@@ -10,7 +10,7 @@ class Solution(object):
 
 
 # second approach - using hashmap
-# time Complexity: O(n)
+# time complexity: O(n)
 # space complexity: O(n)
 class Solution(object):
     def twoSum(self, nums, target):

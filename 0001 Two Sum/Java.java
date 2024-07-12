@@ -1,5 +1,5 @@
 // first approach - brute force
-// time Complexity: O(n^2)
+// time complexity: O(n^2)
 // space complexity: O(1)
 class Solution {
     public int[] twoSum(int[] nums, int target) {
@@ -16,7 +16,7 @@ class Solution {
 
 
 // second approach - using hashmap
-// time Complexity: O(n)
+// time complexity: O(n)
 // space complexity: O(n)
 class Solution {
     public int[] twoSum(int[] nums, int target) {

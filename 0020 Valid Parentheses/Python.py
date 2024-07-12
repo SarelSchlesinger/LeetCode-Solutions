@@ -12,4 +12,4 @@ class Solution(object):
                 last = stack.pop()
                 if not ((i == ')' and last == '(') or (i == ']' and last == '[') or (i == '}' and last == '{')):
                     return False
-        return False if stack else True
+        return not stack
