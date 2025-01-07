@@ -1,4 +1,4 @@
-# time complexity: O(n^2)
+# time complexity:  O(n^2)
 # space complexity: O(1)
 
 def rotate(self, matrix):

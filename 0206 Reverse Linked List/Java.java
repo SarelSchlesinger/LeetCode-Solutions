@@ -6,8 +6,8 @@ public class ListNode {
 	ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 }
  
-// first approach - using stack
-// time complexity: O(n)
+// first approach - stack
+// time complexity:  O(n)
 // space complexity: O(n)
 class Solution {
     public ListNode reverseList(ListNode head) {
@@ -25,8 +25,8 @@ class Solution {
     }
 }
 
-// second approach - using two pointers
-// time complexity: O(n)
+// second approach - two pointers
+// time complexity:  O(n)
 // space complexity: O(1)
 class Solution {
     public ListNode reverseList(ListNode head) {

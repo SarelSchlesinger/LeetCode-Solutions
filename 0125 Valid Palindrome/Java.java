@@ -1,5 +1,5 @@
-// first approach - using stack
-// time Complexity: O(n)
+// first approach - stack
+// time Complexity:  O(n)
 // space complexity: O(n)
 class Solution {
     public boolean isPalindrome(String s) {
@@ -20,8 +20,8 @@ class Solution {
     }
 }
 
-// second approach - using two pointers
-// time Complexity: O(n)
+// second approach - two pointers
+// time Complexity:  O(n)
 // space complexity: O(1)
 class Solution {
     public boolean isPalindrome(String s) {

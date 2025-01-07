@@ -3,7 +3,7 @@ class ListNode(object):
         self.val = val
         self.next = next
         
-# first approach - using stack
+# first approach - stack
 # time complexity: O(n)
 # space complexity: O(n)
 class Solution(object):
@@ -18,7 +18,7 @@ class Solution(object):
         stack[0].next = None
         return stack[-1]
 
-# second approach - using two pointers
+# second approach - two pointers
 # time complexity: O(n)
 # space complexity: O(1)
 class Solution(object):
