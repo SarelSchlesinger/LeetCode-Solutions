@@ -1,5 +1,5 @@
 // using hashmap
-// time Complexity: O(n)
+// time Complexity:  O(n)
 // space complexity: O(1)
 
 class Solution {

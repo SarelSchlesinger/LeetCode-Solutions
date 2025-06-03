@@ -1,4 +1,4 @@
-// time complexity: O(log(x))
+// time complexity:  O(log(x))
 // space complexity: O(1)
 
 class Solution {
