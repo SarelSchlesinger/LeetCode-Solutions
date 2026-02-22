@@ -1,5 +1,6 @@
 # two pointers approach
-# time complexity: O(n)
+# time complexity:  O(n)
+# space complexity: O(1)
 
 class Solution(object):
     def maxProfit(self, prices):
